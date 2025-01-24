@@ -27,7 +27,7 @@ dependencies:
   freezed_annotation: ^2.4.4
   json_annotation: ^4.9.0
 
-  #logger
+  # logger
   logger: ^2.5.0
 
   # network
@@ -40,13 +40,14 @@ dependencies:
   # router
   auto_route: ^9.3.0+1
 
-  #envied for environment variables
+  # envied for environment variables
   envied: ^1.1.0
 
 dev_dependencies:
+  # testing
   flutter_test:
     sdk: flutter
-
+  mockito: ^5.4.5
   flutter_lints: ^5.0.0
 
   # code generation

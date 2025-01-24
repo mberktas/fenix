@@ -15,14 +15,14 @@ class MovieCubit extends Cubit<MovieState> {
   void searchMoviesByQuery(String query) async {
     emit(MovieLoading());
     final result = await searchMovies(SearchMoviesParams(query: query));
-    result.fold((failure) => emit(MovieError(failure.toString())), (movies) {
-      if (movies.isEmpty) {
-        return emit(MovieEmpty());
-      }
-      return emit(MovieLoaded(movies));
-    });
-
-
-  
+    result.fold(
+      (failure) => emit(MovieError(failure.toString())),
+      (movies) {
+        if (movies.isEmpty) {
+          return emit(MovieEmpty());
+        }
+        return emit(MovieLoaded(movies));
+      },
+    );
   }
 }

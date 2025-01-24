@@ -1,4 +1,5 @@
 import 'package:dartz/dartz.dart';
+import 'package:equatable/equatable.dart';
 import 'package:fenix/core/error/failures.dart';
 import 'package:fenix/core/error/usecases/usecase.dart';
 import 'package:fenix/features/movie/domain/entities/movie.dart';
@@ -17,8 +18,11 @@ class SearchMovies implements UseCase<List<Movie>, SearchMoviesParams> {
   }
 }
 
-class SearchMoviesParams {
+class SearchMoviesParams extends Equatable {
   final String query;
 
-  SearchMoviesParams({required this.query});
+  const SearchMoviesParams({required this.query});
+
+  @override
+  List<Object?> get props => [query];
 }
