@@ -1,16 +1,31 @@
-# fenix
+# Fenix Project
 
-A new Flutter project.
+## Installation
 
-## Getting Started
+Clone this repository:
 
-This project is a starting point for a Flutter application.
+```bash
+git clone https://github.com/mberktas/fenix.git
+```
 
-A few resources to get you started if this is your first Flutter project:
+Install the required packages:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+```bash
+flutter pub get
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Set up the environment variables:
+
+> The required environment variables are listed in the `.env.example` file.  
+> Create a `.env` file in the same directory as `.env.example` and provide the necessary environment values.
+
+---
+
+## Packages
+
+- **flutter_bloc**: For state management.
+- **dartz**: To facilitate error handling using the functional programming paradigm.
+- **injectable, get_it**: For dependency injection.
+- **dio, retrofit**: As the HTTP client for handling network operations.
+- **auto_route**: For in-app route management.
+- **equatable, freezed, json_annotation**: Code generation tools to reduce boilerplate code.
