@@ -1,8 +1,7 @@
 name: fenix
 description: 'A new Flutter project.'
-# The following line prevents the package from being accidentally published to
-# pub.dev using `flutter pub publish`. This is preferred for private packages.
-publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+publish_to: 'none'
 
 version: 1.0.0+1
 
@@ -23,8 +22,13 @@ dependencies:
   injectable: ^2.5.0
   get_it: ^8.0.3
 
-  # equatable
+  # annonations and serialization
   equatable: ^2.0.7
+  freezed_annotation: ^2.4.4
+  json_annotation: ^4.9.0
+
+  #logger
+  logger: ^2.5.0
 
   # network
   dio: ^5.7.0
@@ -36,16 +40,26 @@ dependencies:
   # router
   auto_route: ^9.3.0+1
 
+  #envied for environment variables
+  envied: ^1.1.0
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
   flutter_lints: ^5.0.0
 
+  # code generation
   auto_route_generator: ^9.3.1
   build_runner: ^2.4.14
   retrofit_generator: ^9.1.7
   injectable_generator: ^2.7.0
+  json_serializable: ^6.9.3
+  freezed: ^2.5.8
+  envied_generator: ^1.1.0
 
 flutter:
   uses-material-design: true
+
+  assets:
+    - lib/application/i18n/

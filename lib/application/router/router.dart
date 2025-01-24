@@ -6,7 +6,9 @@ part "router.gr.dart";
 @AutoRouterConfig(replaceInRouteName: "View|Screen|Page,Route")
 class AppRouter extends RootStackRouter {
   @override
-  List<AutoRoute> get routes => [];
+  List<AutoRoute> get routes => [
+        AutoRoute(page: MoviesRoute.page, path: "/", initial: true),
+      ];
 }
 
 @RoutePage(name: 'EmptyRouter')

@@ -1,0 +1,10 @@
+{
+	"movies": "Filmler",
+	"search": "Ara",
+	"searchPlaceholder": "Ara...",
+	"searchNoResults": "Sonuç bulunamadı",
+	"failedToLoadImage": "Görüntü yüklenemedi",
+	"failedToLoadMovies": "Filmler yüklenemedi",
+	"unknownMovie": "Bilinmeyen film",
+	"searchForMovie": "Film ara"
+}

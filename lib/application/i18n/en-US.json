@@ -1,0 +1,10 @@
+{
+	"movies": "Movies",
+	"search": "Search",
+	"searchPlaceholder": "Search...",
+	"searchNoResults": "No results found",
+	"failedToLoadImage": "Failed to load image",
+	"failedToLoadMovies": "Failed to load movies",
+	"unknownMovie": "Unknown movie",
+	"searchForMovie": "Search for movie"
+}
