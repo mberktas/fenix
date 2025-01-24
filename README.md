@@ -29,3 +29,4 @@ Set up the environment variables:
 - **dio, retrofit**: As the HTTP client for handling network operations.
 - **auto_route**: For in-app route management.
 - **equatable, freezed, json_annotation**: Code generation tools to reduce boilerplate code.
+- **mockito**: generate mock classes for testing
