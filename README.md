@@ -5,7 +5,7 @@
 Clone this repository:
 
 ```bash
-git clone https://github.com/mberktas/flutter_boilerplate.git
+git clone https://github.com/mberktas/flutter-boilerplate.git
 ```
 
 Install the required packages:
