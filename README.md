@@ -1,11 +1,11 @@
-# Fenix Project
+# Flutter Boilerplate
 
 ## Installation
 
 Clone this repository:
 
 ```bash
-git clone https://github.com/mberktas/fenix.git
+git clone https://github.com/mberktas/flutter_boilerplate.git
 ```
 
 Install the required packages:
